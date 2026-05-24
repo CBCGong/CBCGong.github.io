@@ -4,7 +4,7 @@ title: "About Me"
 author_profile: true
 ---
 
-# [陈泽亮]
+# [Zeliang Chen]
 
 I am an undergraduate student at **Huazhong University of Science and Technology (HUST)**. 
 
