@@ -1,0 +1,166 @@
+/* ========================================================================== 
+   COMPACT ACADEMIC HOMEPAGE
+   ========================================================================== */
+
+.compact-home {
+  --compact-link: #1769aa;
+  --compact-rule: #e7e7e7;
+  --compact-muted: #555;
+
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 0 4rem;
+  color: var(--global-text-color);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+html[data-theme="dark"] .compact-home {
+  --compact-link: #79bff2;
+  --compact-rule: #666;
+  --compact-muted: #d3d3d3;
+}
+
+.page__content .compact-home a {
+  color: var(--compact-link);
+  text-decoration: underline;
+  text-underline-offset: 0.13em;
+}
+
+.compact-intro {
+  margin-bottom: 2.6rem;
+}
+
+.compact-intro h1 {
+  margin: 0 0 1rem;
+  font-family: inherit;
+  font-size: clamp(2.25rem, 5vw, 2.9rem);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+
+.compact-intro p {
+  margin: 0 0 0.45rem;
+  color: var(--global-text-color);
+  font-size: 1.05rem !important;
+  line-height: 1.45;
+}
+
+.compact-intro p:nth-of-type(3) {
+  color: var(--compact-muted);
+}
+
+.compact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1.15rem;
+  font-size: 1rem;
+}
+
+.compact-links span {
+  color: var(--compact-muted);
+}
+
+.compact-section {
+  margin-top: 2.4rem;
+}
+
+.compact-section h2 {
+  margin: 0 0 1rem;
+  padding: 0 0 0.45rem !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--compact-rule) !important;
+  font-family: inherit;
+  font-size: 1.65rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.compact-section p,
+.compact-section li {
+  font-size: 1.06rem !important;
+  line-height: 1.7;
+}
+
+.compact-section p {
+  max-width: 860px;
+  margin: 0;
+}
+
+.compact-records {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.compact-records li {
+  margin: 0;
+  padding-left: 0.2rem;
+}
+
+.compact-records span {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--compact-muted);
+  font-style: italic;
+}
+
+.compact-publications {
+  margin: 0;
+  padding-left: 1.6rem;
+}
+
+.compact-publications li {
+  padding-left: 0.2rem;
+}
+
+.compact-publication__title,
+.compact-publication__authors,
+.compact-publication__venue,
+.compact-publication__links {
+  display: block;
+}
+
+.compact-publication__title {
+  font-weight: 700;
+}
+
+.compact-publication__authors,
+.compact-publication__venue {
+  margin-top: 0.15rem;
+}
+
+.compact-publication__venue {
+  color: var(--compact-muted);
+  font-style: italic;
+}
+
+.compact-publication__links {
+  margin-top: 0.25rem;
+  font-size: 0.96rem;
+}
+
+@media (max-width: 600px) {
+  .compact-home {
+    padding-top: 0;
+  }
+
+  .compact-intro {
+    margin-bottom: 2rem;
+  }
+
+  .compact-intro h1 {
+    font-size: 2.15rem;
+  }
+
+  .compact-intro p,
+  .compact-section p,
+  .compact-section li {
+    font-size: 1rem !important;
+  }
+
+  .compact-section {
+    margin-top: 2rem;
+  }
+}
