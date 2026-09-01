@@ -164,14 +164,22 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _pages
-  - files
+  - _pages/about.md
+  - _pages/cv.md
+  - _pages/404.md
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .github
+  - _posts
+  - _publications
+  - _talks
+  - _teaching
+  - _portfolio
+  - files
+  - images/500x300.png
   - .jekyll-assets-cache
   - .sass-cache
   - assets/js/_main.js
