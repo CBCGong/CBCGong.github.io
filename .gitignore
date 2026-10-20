@@ -5,6 +5,13 @@ _site/
 # Ignore the directory for local files during development
 local/
 
+# Unused homepage draft sections stay local until their content is ready
+/_includes/home-news-draft.html
+/_includes/home-sections-draft.html
+
+# Temporary PDF page renders used for local publication-card preparation
+/tmp/pdfs/
+
 # Ignore the Gemfile that is generated
 Gemfile.lock
 

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verilogic", "sort_order": 10,
+    "title": "VeriLogic: Reinforcement Learning over Verifiable Logical Reasoning Traces",
+    "authors_html": "", "status": "Preprint", "role_label": "First author",
+    "first_author": true, "local_only": false,
+    "paper_url": null,
+    "image": "/images/publications/verilogic.png", "image_width": 1092, "image_height": 354,
+    "image_alt": "VeriLogic framework: verifiable reasoning environment construction, structured policy optimization, and verifier-guided refinement"
+  },
+  {
+    "id": "affect", "sort_order": 20,
+    "title": "Understanding Explicit and Implicit Affect through Neuro-Symbolic Reasoning",
+    "authors_html": "", "status": "Preprint", "role_label": "First author",
+    "first_author": true, "local_only": false,
+    "paper_url": null,
+    "image": "/images/publications/affect.png", "image_width": 1092, "image_height": 596,
+    "image_alt": "PAIR framework combining symbolically verified supervised fine-tuning with reinforcement learning for explicit and implicit affect"
+  },
+  {
+    "id": "phase", "sort_order": 100,
+    "title": "Logical Phase Transitions: Understanding Collapse in LLM Logical Reasoning",
+    "authors_html": "Xinglang Zhang, Yunyao Zhang, <strong>Zeliang Chen</strong>, Junqing Yu, Wei Yang, and Zikai Song",
+    "status": "ACL 2026", "role_label": "",
+    "first_author": false, "local_only": false,
+    "paper_url": "https://aclanthology.org/2026.acl-long.858/",
+    "image": "/images/logical-phase-transitions.png", "image_width": 1100, "image_height": 650,
+    "image_alt": "Logical Phase Transitions framework for logical complexity measurement and neuro-symbolic curriculum tuning"
+  },
+  {
+    "id": "rubrics", "sort_order": 200,
+    "title": "Rubrics Beyond Evaluation: Exploiting Rubric Structure in Reinforcement Learning",
+    "authors_html": "", "status": "Preprint", "role_label": "",
+    "first_author": false, "local_only": false,
+    "paper_url": null,
+    "image": "/images/publications/rubrics.png", "image_width": 1112, "image_height": 598,
+    "image_alt": "RSRL framework for rubric-to-capability structuring, self-sufficient capability learning, and capability-residual credit routing"
+  },
+  {
+    "id": "engagement", "sort_order": 210,
+    "title": "Too Good to Be Real? Diagnosing and Reducing the Gap Between AI Preference and Real User Engagement",
+    "authors_html": "Xinglang Zhang, Yuanmeng Xiang, Yunyao Zhang, <strong>Zeliang Chen</strong>, Junqing Yu, and Zikai Song",
+    "status": "Preprint", "role_label": "",
+    "first_author": false, "local_only": false,
+    "paper_url": "https://arxiv.org/abs/2609.18282",
+    "image": "/images/publications/engagement.png", "image_width": 1268, "image_height": 744,
+    "image_alt": "Ontology-guided framework for measuring, diagnosing, and reducing the AI preference and user engagement gap"
+  },
+  {
+    "id": "hexagon", "sort_order": 220,
+    "title": "Semiotic Logical Hexagon Theory for LLM Logical Reasoning",
+    "authors_html": "Yunyao Zhang, Xinglang Zhang, <strong>Zeliang Chen</strong>, Junqing Yu, and Zikai Song",
+    "status": "Preprint", "role_label": "",
+    "first_author": false, "local_only": false,
+    "paper_url": "https://arxiv.org/abs/2607.21933",
+    "image": "/images/publications/hexagon.png", "image_width": 1232, "image_height": 616,
+    "image_alt": "Comparison of linear, aggregative, symbolic, and semiotic reasoning paradigms, including HexLogicAgent"
+  }
+]

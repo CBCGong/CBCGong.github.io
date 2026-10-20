@@ -12,7 +12,9 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zeliang Chen"
 title_separator          : "·"
 name                     : &name "Zeliang Chen"
-description              : &description "Zeliang Chen is an incoming graduate student in Cyberspace Security at HUST interested in neuro-symbolic logic reasoning and natural language processing."
+description              : &description "Zeliang Chen is a master's student in Cyberspace Security at HUST interested in neuro-symbolic logic reasoning and natural language processing."
+# In-progress homepage sections are displayed by the local preview only.
+homepage_drafts          : false
 url                      : https://CBCGong.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +28,7 @@ author:
   avatar           : "profile.png"
   name             : "Zeliang Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Incoming graduate student in Cyberspace Security at HUST interested in neuro-symbolic logic reasoning and NLP."
+  bio              : "Master's student in Cyberspace Security at HUST interested in neuro-symbolic logic reasoning and NLP."
   location         : "Wuhan, China"
   employer         : "Huazhong University of Science and Technology"
   uri              : # URL

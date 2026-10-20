@@ -1,0 +1,11 @@
+<article id="paper-{{ include.paper.id }}" class="publication-card" aria-labelledby="paper-{{ include.paper.id }}-title" data-first-author="{{ include.paper.first_author }}">
+  <div class="publication-image">
+    <img src="{{ include.paper.image }}" alt="{{ include.paper.image_alt | escape }}" width="{{ include.paper.image_width }}" height="{{ include.paper.image_height }}" loading="lazy">
+  </div>
+  <div class="publication-details">
+    <div class="publication-meta"><span class="publication-status">{{ include.paper.status }}</span><span class="publication-role">{{ include.paper.role_label }}</span></div>
+    <h3 id="paper-{{ include.paper.id }}-title">{% if include.paper.paper_url %}<a href="{{ include.paper.paper_url }}" target="_blank" rel="noopener noreferrer">{{ include.paper.title | escape }}</a>{% else %}{{ include.paper.title | escape }}{% endif %}</h3>
+    <p class="paper-authors">{{ include.paper.authors_html }}</p>
+    {% if include.paper.paper_url %}<div class="paper-links" aria-label="Publication resources"><a href="{{ include.paper.paper_url }}" target="_blank" rel="noopener noreferrer">Paper</a></div>{% endif %}
+  </div>
+</article>

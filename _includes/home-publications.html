@@ -1,0 +1,6 @@
+{% assign ordered_publications = site.data.publications | sort: 'sort_order' %}
+{% for publication in ordered_publications %}
+{% if publication.local_only != true or site.homepage_drafts %}
+{% include publication-card.html paper=publication %}
+{% endif %}
+{% endfor %}
