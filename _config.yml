@@ -53,7 +53,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "CBCGong"
+  github           : # Personal GitHub profile is not displayed
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -152,8 +152,7 @@ og_description           : *description
 social:
   type                   : Person
   name                   : *name
-  links:
-    - "https://github.com/CBCGong"
+  links: []
 
 
 # Analytics
